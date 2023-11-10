@@ -7,11 +7,13 @@ Do you know Kaggle? Do you know their competitions? Do you know the Titanic comp
 After finishing my postgraduate degree in Analytics & Data Science I decided that I should continue practicing what I had learned, because I don't want to forget what I had learned, because practice makes perfect and because I like it! :-D
 So I went to Kaggle and choose the **Titanic - Machine Learning from Disaster** Competition to start my practice (https://www.kaggle.com/competitions/titanic/overview).
 
+
 ## Titanic - Machine Learning from Disaster
 The sinking of the Titanic is one of the most infamous shipwrecks in history.
 On April 15, 1912, during her maiden voyage, the widely considered “unsinkable” RMS Titanic sank after colliding with an iceberg. Unfortunately, there weren’t enough lifeboats for everyone onboard, resulting in the death of 1502 out of 2224 passengers and crew.
 While there was some element of luck involved in surviving, it seems some groups of people were more likely to survive than others.
 In this challenge, we ask you to build a predictive model that answers the question: “what sorts of people were more likely to survive?” using passenger data (ie name, age, gender, socio-economic class, etc).
+
 
 ## First Attempt (One feature: “Sex”)
 https://github.com/AnaPatSilva/Titanic-I/blob/main/Code%20(Python)/Titanic%201f.py
@@ -34,6 +36,7 @@ To begin with, I decided to create a machine learning model, using Random Forest
 
 But the result didn't satisfy me because I think that only one feature won’t be sufficient to make a good prediction.
 
+
 ## Second Attempt (Three features: “Sex”, “Pclass”, “Fare”)
 https://github.com/AnaPatSilva/Titanic-I/blob/main/Code%20(Python)/Titanic%203f.py
 This second attempt aims to enhance the Titanic dataset analysis by incorporating additional features (Sex, Pclass, Fare).
@@ -55,6 +58,7 @@ This second attempt aims to enhance the Titanic dataset analysis by incorporatin
 14. **Model Output:** The results from the tuned models are saved in CSV files (https://github.com/AnaPatSilva/Titanic-I/blob/main/Outputs/RF_GS%20(3f).csv).
 
 I tried to submit this model, but it wasn't accepted because I need to have 418 predictions and I only had 417. This happened because I decided to drop the lines with no values.
+
 
 ## Third Attempt (Three features: “Sex”, “Pclass”, “Fare”)
 https://github.com/AnaPatSilva/Titanic-I/blob/main/Code%20(Python)/Titanic%203f%20(1).py
@@ -80,6 +84,7 @@ In addition, I used the train dataset to made the split between train and test.
 16. **Replace the missing value:** Replace the missing values for the value given by the Linear Regression model.
 17. **Model Output:** The final predictions are saved in a CSV file.
 
+
 ## Linear Regression (impute missing values)
 https://github.com/AnaPatSilva/Titanic-I/blob/main/Code%20(Python)/Titanic%20Fare_NA.py
 For my third attempt I had to impute the missing values, so I decided to make a Linear Regression to impute those values.
@@ -98,6 +103,7 @@ For my third attempt I had to impute the missing values, so I decided to make a 
 11. **Imputation of Missing Values:** Missing 'Fare' values are imputed using the predictions from the linear regression model.
 12. **Combining Imputed Data:** The code combines the data with imputed 'Fare' values with the data that had complete 'Fare' values.
 13. **Visualizing Imputed 'Fare' Values:** It prints the 'Fare' values after imputation to verify the reasonableness of the imputed values.
+
 
 ## Conclusions
 After all these experiments, I submitted the code from the third attempt (Random Forest), with the data obtained by the Linear Regression model to impute the null values.

@@ -82,7 +82,7 @@ In addition, I used the train dataset to made the split between train and test.
 14. **Summary of Results:** The code provides a summary of the initial model's accuracy, cross-validation results, tuning results, and accuracy of the tuned models.
 15. **Applying the Best Model to the Test Dataset:** The best model (Grid Search) is applied to the test dataset to make predictions.
 16. **Replace the missing value:** Replace the missing values for the value given by the Linear Regression model.
-17. **Model Output:** The final predictions are saved in a CSV file.
+17. **Model Output:** The final predictions are saved in a CSV file (https://github.com/AnaPatSilva/Titanic-I/blob/main/Outputs/RF_GS%20(3f1).csv).
 
 
 ## Linear Regression (impute missing values)

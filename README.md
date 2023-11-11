@@ -5,13 +5,17 @@ Do you know Kaggle? Do you know their competitions? Do you know the Titanic comp
 
 ## Intro - Who I am
 After finishing my postgraduate degree in Analytics & Data Science I decided that I should continue practicing what I had learned, because I don't want to forget what I had learned, because practice makes perfect and because I like it! :-D
-So I went to Kaggle and choose the **Titanic - Machine Learning from Disaster** Competition to start my practice (https://www.kaggle.com/competitions/titanic/overview).
+
+So I went to Kaggle and choose the [**Titanic - Machine Learning from Disaster**](https://www.kaggle.com/competitions/titanic/overview) Competition to start my practice.
 
 
 ## Titanic - Machine Learning from Disaster
 The sinking of the Titanic is one of the most infamous shipwrecks in history.
+
 On April 15, 1912, during her maiden voyage, the widely considered “unsinkable” RMS Titanic sank after colliding with an iceberg. Unfortunately, there weren’t enough lifeboats for everyone onboard, resulting in the death of 1502 out of 2224 passengers and crew.
+
 While there was some element of luck involved in surviving, it seems some groups of people were more likely to survive than others.
+
 In this challenge, we ask you to build a predictive model that answers the question: “what sorts of people were more likely to survive?” using passenger data (ie name, age, gender, socio-economic class, etc).
 
 
@@ -112,5 +116,7 @@ For my third attempt I had to impute the missing values, so I decided to make a 
 
 ## Conclusions
 After all these experiments, I submitted the code from the third attempt (Random Forest), with the data obtained by the Linear Regression model to impute the null values.
+
 My score was **0.77511** of 1.
+
 It wasn’t bad but I will try to do better!

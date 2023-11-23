@@ -1,6 +1,6 @@
 ![titanic](https://github.com/AnaPatSilva/Titanic_I-Machine-Learning-Python/blob/main/titanic_custom-fc6a03aedd8e562d780ecf9b9a8a947d4dcbf163-s1100-c50.jpg)
 # TITANIC I
-# Machine Learning & Python
+# _Machine Learning & Python_
 Do you know Kaggle? Do you know their competitions? Do you know the Titanic competition? This is my first submission!
 
 
